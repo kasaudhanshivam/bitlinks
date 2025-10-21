@@ -13,7 +13,7 @@ export async function POST(request) {
     const doc = await collection.findOne({ shortUrl: body.shortUrl })
 
     if(doc){
-        return Response.json({success: false, error: true, message: 'This URL already exists. Please try another one.'});
+        return Response.json({success: false, error: true, message: 'This preferred short URL is already taken. Please try another one.'});
     }
 
 
