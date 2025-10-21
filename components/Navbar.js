@@ -9,8 +9,8 @@ const Navbar = () => {
                 <ul className='flex justify-between gap-7 items-center px-5'>
                     <Link href={"/"}><li>Home</li></Link>
                     <Link href={"/shorten"}><li>Shorten</li></Link>
-                    <Link href={"/about"}><li>About</li></Link>
-                    <Link href={"/contact"}><li>Contact</li></Link>
+                    <Link href={"/linkedin"}><li>About</li></Link>
+                    <Link href={"/linkedin"}><li>Contact</li></Link>
                 </ul>
                 <div>
                     <Link href={"/generate"}><button className='font-bold bg-emerald-400 rounded-lg p-1 px-2 shadow-xl mr-3'>Try Now</button></Link>
